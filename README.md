@@ -45,8 +45,47 @@ The system features a modular firmware architecture, separating motor control lo
 
 ```text
 Embedded-environment-analysis-system/
-├── Embedded-environment-analysis-system.ino  # Main entry point (Setup & Loop)
-├── config.h                                  # Pin definitions & Calibration constants
-├── motors.h / motors.cpp                     # DC Motor control logic
-├── sensors.h / sensors.cpp                   # Sensor processing & LED management
-└── README.md                                 # Project documentation
+```text
+Embedded-environment-analysis-system/
+│   README.md
+│   
+├───app
+├───assets
+│   │   robot.png
+│   │   
+│   ├───arduino_mega/
+│   │       
+│   ├───battery
+│   ├───bmp280_pressure_sensor/
+│   │
+│   ├───ds18b20_temp_sensor/
+│   │
+│   ├───esp32_cam/
+│   │
+│   ├───l293d/
+│   │
+│   └───motor/
+├───docs/
+│   │
+│   └───datasheets/
+│
+├───EnvironmentalRobot_Firmware/
+│   │
+│   └───BTconfig/
+│
+└───mechanical
+    ├───3d_printing/
+    │
+    └───components
+        ├───arduino_mega/
+        │
+        ├───battery/
+        │
+        ├───bmp280_pressure_sensor/
+        │
+        ├───ds18b20_temp_sensor/
+        │
+        ├───l293d/
+        │
+        └───motor/
+```
