@@ -13,7 +13,7 @@ The system features a modular firmware architecture, separating motor control lo
 
 ## The System
 
-![System Photo](assets/robot.png)
+![System Photo](./assets/robot.png)
 *Figure 1: Mobile analysis platform equipped with gas sensors and NeoPixel status indicators.*
 
 ---
